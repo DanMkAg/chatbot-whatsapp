@@ -1,6 +1,7 @@
 ##  INSTRUCCIONES
 Codigo Python para crear chatbot en Whatsapp, utilizando la libreria rivescript
-crear un ChatBot inteligente con WhatsApp en Python totalmente gratis y con la plataforma oficial de WhatsApp (WhatsApp cloud API). La ventaja que tenemos al trabajar con la plataforma oficial es que la información que recibiremos y enviaremos será completamente fiable. Solo debemos seguir estos pasos:
+
+ChatBot inteligente con WhatsApp en Python totalmente gratis y con la plataforma oficial de WhatsApp (WhatsApp cloud API). La ventaja que tenemos al trabajar con la plataforma oficial de Whatsapp, es que la información que recibiremos y enviaremos será completamente fiable. Tan solo debemos seguir estos pasos:
 - Creamos una app en Facebook
 - Configuramos el Api de WhatsApp (Añadir telefono de pruebas y verificarlo, añadir URL de devolución de llamada Webhook, junto con el token de verificacion deseado que se especifique en el código y verificar con API,<img width="960" alt="imagen" src="https://github.com/DanMkAg/chatbot-whatsapp/assets/43437599/32fd48d6-5ee1-467e-8539-994d277b83a3"> y en el apartado de Webhook, clicamos en Administrar y nos suscribimos al servicio de mensajes de la API)
 - Creamos una tabla en nuestra base de datos SQL
