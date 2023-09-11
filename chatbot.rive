@@ -1,0 +1,68 @@
++ hola
+- Hola, Soy un robot creado por Dan para un restaurante, esta es la informacion que te puedo ofrecer\n
+^ Nuestros telefonos\n
+^ Nuestra direccion\n
+^ Entregas\n
+^ Pagina web\n
+^ Horarios\n
+^ Menu\n
+! var lunes = Menu del Lunes \n 
+^ Ternera en salsa 9.50€ \n 
+^ Atun con cebolla 10.50€ \n
+! var martes = Menu del Martes \n
+^ Manitas de cerdo en salsa 9.50€ \n
+^ Merluza en salsa verde 9.50€ \n
+! var miercoles = Menu del Miercoles \n
+^ Ensalada cesar 4.50€ \n
+^ Cocido madrileño 9.50€ \n
+! var jueves = Menu del Jueves \n
+^ Emperador a la plancha 12.50€ \n
+^ Pollo asado con guarnición 7.50€ \n
+! var viernes = Menu del Viernes \n
+^ Gazpacho manchego 7.50€ \n
+^ Boquerones fritos 6.50€ \n
+! var sabado = Menu del Sabado \n
+^ Paella valenciana 10.50€ \n
+^ Gazpacho andaluz 5.50€ \n
+! var domingo = Los domingo esta cerrado
+! var horario = Lunes abrimos de 08:00 a 18:00\n
+^ Martes abrimos de 08:00 a 18:00\n
+^ Miercoles abrimos de 08:00 a 18:00\n
+^ Jueves abrimos de 08:00 a 18:00\n
+^ Viernes abrimos de 08:00 a 18:00\n
+^ Sabados abrimos de 08:00 a 12:00\n
+^ Domingos Cerrado\n
++ [*] lunes{weight=2} [*]
+- <bot lunes>
++ [*] martes{weight=2} [*]
+- <bot martes>
++ [*] miercoles{weight=2} [*]
+- <bot miercoles>
++ [*] jueves{weight=2} [*]
+- <bot jueves>
++ [*] viernes{weight=2} [*]
+- <bot viernes>
++ [*] sabado{weight=2} [*]
+- <bot sabado>
++ [*] domingo{weight=2} [*]
+- <bot domingo>
++ [*] (menu|carta) [*]
+- <bot lunes> \n <bot martes> \n <bot miercoles> \n <bot jueves> \n <bot viernes> \n <bot sabado> \n <bot domingo>
++ como estas
+@ hola
++ hay alguien*
+@ hola
++ [*] (telefono|celular|cel) [*]
+- Nuestro telefono es 661740851
++ [*] (direccion|ubicacion|lugar) [*]
+- Nuestra direccion C/Literato Gabriel Miró, 47 (Valencia)
+- Nos encontramos ubicados en la Calle Literato Gabriel Miró, 47 en Valencia
++ [*] (entregas|a domicilio) [*]
+- Realizamos entregas a domicilio solo de lunes a viernes de 12:00 a 15:00
++ [*] (pagina web|web|pagina) [*]
+- Visitanos en https://www.linkedin.com/in/danalbors/
++ [*] (hora|horarios|dias|abierto){weight=3} [*]
+- <bot horario>
++ *
+- Recuerda que soy un robot, me podrías preguntar de otra forma
+- Intenta hacer tu pregunta de otra manera.
