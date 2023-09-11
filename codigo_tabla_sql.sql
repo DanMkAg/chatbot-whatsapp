@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 23-01-2023 a las 21:24:48
+-- Tiempo de generación: 01-09-2023 a las 21:24:48
 -- Versión del servidor: 10.4.20-MariaDB
 -- Versión de PHP: 7.3.29
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
