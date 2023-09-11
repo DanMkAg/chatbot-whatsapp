@@ -53,14 +53,14 @@
 + hay alguien*
 @ hola
 + [*] (telefono|celular|cel) [*]
-- Nuestro telefono es 661740851
+- Nuestro telefono es 666666666
 + [*] (direccion|ubicacion|lugar) [*]
 - Nuestra direccion C/Literato Gabriel Miró, 47 (Valencia)
 - Nos encontramos ubicados en la Calle Literato Gabriel Miró, 47 en Valencia
 + [*] (entregas|a domicilio) [*]
 - Realizamos entregas a domicilio solo de lunes a viernes de 12:00 a 15:00
 + [*] (pagina web|web|pagina) [*]
-- Visitanos en https://www.linkedin.com/in/danalbors/
+- Visitanos en https://www.webcliente.com/
 + [*] (hora|horarios|dias|abierto){weight=3} [*]
 - <bot horario>
 + *
