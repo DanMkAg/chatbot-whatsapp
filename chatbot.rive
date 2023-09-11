@@ -1,5 +1,5 @@
 + hola
-- Hola, Soy un robot creado por Dan para un restaurante, esta es la informacion que te puedo ofrecer\n
+- Hola, Soy un robot creado para un restaurante, y esta es la informacion que te puedo ofrecer\n
 ^ Nuestros telefonos\n
 ^ Nuestra direccion\n
 ^ Entregas\n
@@ -52,17 +52,17 @@
 @ hola
 + hay alguien*
 @ hola
-+ [*] (telefono|celular|cel) [*]
-- Nuestro telefono es 666666666
-+ [*] (direccion|ubicacion|lugar) [*]
++ [*] (telefono|numero|celular|cel) [*]
+- Nuestro telefono es 661740851
++ [*] (direccion|ubicacion|sitio|donde|calle|ubicado|ubicados|lugar) [*]
 - Nuestra direccion C/Literato Gabriel Miró, 47 (Valencia)
 - Nos encontramos ubicados en la Calle Literato Gabriel Miró, 47 en Valencia
-+ [*] (entregas|a domicilio) [*]
++ [*] (entregas|a domicilio|casa) [*]
 - Realizamos entregas a domicilio solo de lunes a viernes de 12:00 a 15:00
 + [*] (pagina web|web|pagina) [*]
-- Visitanos en https://www.webcliente.com/
-+ [*] (hora|horarios|dias|abierto){weight=3} [*]
+- Visitanos en https://www.linkedin.com/in/danalbors/
++ [*] (hora|horarios|dias|horario|abris|abiertos|abren|abierto){weight=3} [*]
 - <bot horario>
 + *
-- Recuerda que soy un robot, me podrías preguntar de otra forma
+- Recuerda que soy un robot, me podrías preguntar de otra forma.
 - Intenta hacer tu pregunta de otra manera.
